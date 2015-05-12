@@ -29,8 +29,8 @@ echo "module.exports = function (bt) {
 echo "modules.define(
     '$BlockName',
     ['inherit', 'block'],
-    function (provide, inherit, YBlock) {
-        var $BlockName = inherit(YBlock, {
+    function (provide, inherit, Block) {
+        var $BlockName = inherit(Block, {
             __constructor: function () {
                 this.__base.apply(this, arguments);
 
